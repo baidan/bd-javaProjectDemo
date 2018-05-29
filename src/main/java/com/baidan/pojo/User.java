@@ -65,7 +65,7 @@ public class User implements Serializable {
         return sex;
     }
 
-    public void setSex(String name) {
+    public void setSex(String sex) {
         this.sex = sex;
     }
 

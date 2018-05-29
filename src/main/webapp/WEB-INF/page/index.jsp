@@ -24,10 +24,9 @@
             data: $('#userForm').serialize(),
             dataType: 'json',
             success: function (data) {
-                if (data.result === "success") {
+                if (data.result === "0000") {
                     console.log(data);
                     alert("登录成功");
-
                    // location.href = '<%=basePath%>/user/success';
                 } else {
                     alert("用户名或者密码错误！");
