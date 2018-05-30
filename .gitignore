@@ -1,0 +1,13 @@
+.idea
+overlays
+*.classpath
+*.name
+*.prefs
+*.jsdtscope
+*.component
+*.tern-project
+*.container
+*.cmd
+node_modules
+*.zip
+target
